@@ -119,7 +119,7 @@ class _ForgotScreenState extends State<ForgotScreen> {
                   if (validEmail) {
                     return null;
                   } else {
-                    return "please enter the valid emial id";
+                    return "please enter the valid Email id";
                   }
                 },
                 constraints: BoxConstraints.expand(height: 10.h, width: 85.w),
